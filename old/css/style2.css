@@ -1,0 +1,134 @@
+html { 
+	margin:0;
+	padding:0;
+	height: 100%;
+	font-family: 'Josefin sans', sans-serif;
+}
+
+ @font-face{ font-family:"Primetime"; src: url('../police/primetime.ttf'); }
+
+h1,h2,h3{
+	font-size:1em;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	line-height:100%;
+}
+
+body{
+	border-top: 4px solid #00FF33;
+	border-bottom: 4px solid #00FF33;
+	background: url('../img/bggg.jpg') no-repeat center center fixed; 
+  	background-size: cover; 
+	margin: 0;
+	padding: 0 15%;
+}
+
+header{background: #0b0b0b;}
+
+#accueil{margin-top: 3%; background: #1a1a1a; }
+
+
+
+#logo_home, #nav_home{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#logo_home:hover img{
+	-webkit-transform: rotate(720deg);
+	-moz-transform: rotate(720deg);
+	-ms-transform: rotate(720deg);
+	-o-transform: rotate(720deg);
+	transform: rotate(720deg);
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+}
+
+#logo_home{
+	margin-left: 10%;
+	opacity: 0.7;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+	margin-top: 5px; margin-bottom: 5px;
+	padding: 0px 5px;
+background-color: #1a1a1a;
+}
+
+
+nav{
+	width: 70%;
+	float: right;
+	text-align: right;
+	font-size: 1.2em;
+}
+
+nav ul{list-style: none; margin:0; padding:0;}
+nav li{	display: inline-block;list-style-type: none;border-left:1px solid #1a1a1a;margin: 0;padding:0 3%;}
+nav li:hover{background-color: black;}
+
+nav a{
+	text-decoration: none;
+	color: #58585a;
+	line-height: 107px;
+	margin-top: 15px;
+	}
+   
+#titre-accueil{
+	font-family: 'Primetime', sans-serif;
+	text-transform: none;
+	color: white;
+	font-size: 5em;
+	text-transform: uppercase;
+	margin: 5% 0% 0% 10%;
+	padding-bottom: 7%;}
+
+#titre-accueil strong{	color: #00FF33;}
+
+#titre-accueil span{color: #58585a;}
+
+
+#dev, #dep{
+	width: 48.5%;
+	display: inline-block;
+	background-color: #1a1a1a;
+	margin-top:3%;
+	padding:0;
+	text-align: center;
+	vertical-align:top;
+}
+#dev{margin-right: 3%;}
+
+#competences article h2{background-color: #0b0b0b; color: #58585a; margin: 2% 7%; padding: 2% 0%; text-transform: uppercase;}
+#competences article h2:hover{
+	background-color: white;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	transition: all 0.7s;}
+article p{color: #58585a; margin: 2%;}
+article p strong{color: white;}
+article p a{color: #00ff33; text-decoration: none;}
+
+#presentation, #cv{background-color: #1a1a1a; display:inline-block; vertical-align: top; margin-top: 3%; height: 400px;}
+#presentation{width: 64%; margin-right: 3%} 
+
+#presentation h2{color: #00ff33; font-size: 4em;margin:2%;}
+
+#lien-cv{text-decoration: none;}
+#cv{width: 33%; text-align:center; border-bottom:1px solid transparent;}
+#cv h2{text-align:left; font-size:1.5em; color: #00FF33; margin: 4%; border-top: 4px solid #58585a; border-bottom: 1px solid #58585a; padding: 1% 0% ;}
+#cv:hover{border-bottom: 1px solid #00FF33;}
+#cv p{display:block; background-color: red; bottom: -70px; height: 50px; text-align:center; margin:0}
+
+#retour-haut{display: block; background-color: #0b0b0b; color: #58585a; text-align:center; margin-top: 3%; padding: 1% 0;width: 100%;}
+#retour-haut:hover{
+	background-color: #00FF33;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	transition: all 0.7s;color: #0b0b0b;}
+#retour-haut{text-decoration:none; color: #58585a;}
+footer{background-color: #1a1a1a; margin-bottom: 3%; padding: 3% 0%; text-align: center; color: white;}
+
+
